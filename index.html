@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portfolio - Valeria Enache</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <script src="https://kit.fontawesome.com/50c9b1317f.js" crossorigin="anonymous"></script>
+
+      <style media="screen">
+
+      /* FONT  */
+     @font-face {
+       font-family: 'Baloo-2';
+       font-weight: normal;
+       src: url('fonts/Baloo2-Regular.ttf');
+     }
+
+     @font-face {
+       font-family: 'Baloo-2';
+       font-weight: bolder;
+       src: url('fonts/Baloo2-Medium.ttf');
+     }
+
+     @font-face {
+       font-family: 'Baloo-2';
+       font-weight: bold;
+       src: url('fonts/Baloo2-Bold.ttf');
+     }
+
+      body {
+        font-family: 'Baloo-2';
+        font-size: 18px;
+        background-color: #20201e;
+      }
+
+      html, body, a {
+        cursor: none;
+      }
+      .masthead {
+        position: relative;
+        width: 100%;
+        height: auto;
+        min-height: 35rem;
+        padding: 15rem 0;
+        background: #20201e;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+      }
+      .masthead h1, .masthead .h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.8rem;
+        background: #ffffff;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+                background-clip: text;
+      }
+      .masthead h2, .masthead .h2 {
+        max-width: 20rem;
+        font-size: 1rem;
+      }
+      @media (min-width: 768px) {
+        .masthead h1, .masthead .h1 {
+          font-size: 4rem;
+          line-height: 4rem;
+        }
+      }
+      @media (min-width: 992px) {
+        .masthead {
+          height: 50vh;
+          padding: 0;
+        }
+        .masthead h1, .masthead .h1 {
+          font-size: 3.5rem;
+          line-height: 3.5rem;
+          letter-spacing: 0.8rem;
+        }
+        .masthead h2, .masthead .h2 {
+          max-width: 30rem;
+          font-size: 1.25rem;
+        }
+      }
+
+      .cursor {
+        pointer-events: none;
+        position: fixed;
+        padding: 0.9rem;
+        background-color: #fff;
+        border-radius: 50%;
+        mix-blend-mode: difference;
+        transition: transform 0.3s ease;
+      }
+
+
+      #prev:hover{
+        background-color: transparent;
+        color: white;
+        width: 150px;
+      }
+
+      .carousel-control-next,
+      .carousel-control-prev {
+        filter: invert(100%);
+       }
+
+       .contact-section {
+         padding-top: 5rem;
+         cursor: pointer;
+       }
+       .contact-section .card {
+         border: 0;
+         border-bottom: 0.25rem solid #70998B;
+       }
+       .contact-section .card h4, .contact-section .card .h4 {
+         font-size: 0.8rem;
+         text-transform: uppercase;
+         letter-spacing: 0.15rem;
+       }
+       .contact-section .card hr {
+         border-color: #64a19d;
+         border-width: 0.25rem;
+         width: 3rem;
+       }
+
+       .contact-section .card a {
+         cursor: pointer;
+         text-decoration: none;
+         font-size: 1.2rem;
+       }
+
+       .contact-section .card a:link {
+         color: #20201e;
+       }
+
+       .footer {
+         padding: 5rem 0;
+       }
+
+      </style>
+  </head>
+  <body>
+
+
+    <!-- NAVBAR -->
+
+     <div class="container-fluid" style="padding: 0px;">
+
+       <header class="masthead">
+           <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+               <div class="d-flex justify-content-center">
+                   <div class="text-center">
+                       <h1 class="mx-auto my-0 text-uppercase">Welcome to my portfolio!</h1>
+                       <h2 class="text-white-50 mx-auto mt-2 mb-5">Below gallery contains a collection of my work as a junior graphic designer.</h2>
+                   </div>
+               </div>
+           </div>
+       </header>
+
+
+
+      <div class="container px-5">
+
+       <div class="container-fluid mt-5">
+                 <div class="row">
+                     <div class="col">
+
+
+                         <!-- Post content-->
+                         <article>
+
+
+
+                             <!-- Preview image figure-->
+
+
+                             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="assets/1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="assets/2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/3.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/4.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/5.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/6.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/7.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/8.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/9.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/10.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/11.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/12.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/13.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/14.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/15.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/16.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/17.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/18.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/19.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/20.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/21.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/22.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+               </article>
+             </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- CURSOR -->
+
+  <div class="cursor"></div>
+
+
+<section class="contact-section bg-black">
+<div class="container px-4 px-lg-5">
+
+  <div class="row gx-4 gx-lg-5">
+
+      <div class="col-md-6 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                  <i class="fa-solid fa-envelope mb-2"></i>
+                  <h4 class="text-uppercase m-0">Email</h4>
+                  <hr class="my-4 mx-auto" />
+                  <div class="small text-black-50"><a href="mailto: valeriaenache@outlook.com">Contact me!</a></div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fa-brands fa-linkedin mb-2"></i>  
+                <h4 class="text-uppercase m-0">LinkedIn</h4>
+                <hr class="my-4 mx-auto" />
+                <div class="small text-black-50"><a href="https://www.linkedin.com/in/valeria-enache-65898b210/" target="_blank" style="color: #20201e;">Reach me on LinkedIn!</a></div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</div>
+</section>
+
+  <!-- Footer-->
+  <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; 2022 - 2023 Valeria Enache</div></footer>
+
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+
+  (function () {
+    const link = document.querySelectorAll('.cursor');
+    const cursor = document.querySelector('.cursor');
+    const animateit = function (e) {
+          const span = this.querySelector('span');
+          const { offsetX: x, offsetY: y } = e,
+          { offsetWidth: width, offsetHeight: height } = this,
+          move = 25,
+          xMove = x / width * (move * 2) - move,
+          yMove = y / height * (move * 2) - move;
+          span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+          if (e.type === 'mouseleave') span.style.transform = '';
+    };
+    const editCursor = e => {
+          const { clientX: x, clientY: y } = e;
+          cursor.style.left = x + 'px';
+          cursor.style.top = y + 'px';
+    };
+    link.forEach(b => b.addEventListener('mousemove', animateit));
+    link.forEach(b => b.addEventListener('mouseleave', animateit));
+    window.addEventListener('mousemove', editCursor);
+  })();
+</script>
+
+
+  </body>
+</html>
